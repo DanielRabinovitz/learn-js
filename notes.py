@@ -37,4 +37,13 @@
 #const refers to. Because why the fuck not.
 #Use const as your default variable keyword.
 
+#data types:
+    #primitives are immutable
+        #string, number, boolean
+    #everything else is mutable. 
+
+#objects are containers for a list of values.
+#It's basically a python dict, but more flexible.
+# const obj = {val1: "Bob", val2: 2, val3: True}
+
 
