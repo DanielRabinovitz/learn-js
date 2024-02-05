@@ -4,9 +4,11 @@ const originalMatrix = [
     [4, 5, 6],
     [7, 9, 8]
   ];
-  
+
   const newMatrix = originalMatrix.map((row) => {
-    return row.sort();
+    //[...array] creates a shallow copy of each item in the row
+    //something something magically moves stuf around?
+    return [...row].sort();
   });
   
   // Modifying the original matrix (changing the last element of the first row)

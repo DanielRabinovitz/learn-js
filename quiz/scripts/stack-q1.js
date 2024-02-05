@@ -9,6 +9,10 @@ class PStack {
     return this.#id;
   }
 
+  //he left out getter, setter, on purpose to make us do it.
+  get persons() {return this._persons;}
+  set persons(person_array) {this._persons = person_array;}
+
 }
 
 class PStackImpl extends PStack {
